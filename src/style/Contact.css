@@ -1,0 +1,72 @@
+.contact-container {
+  max-width: 700px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 40px 30px;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact-container h2 {
+  font-size: 28px;
+  color: #c8152b;
+  margin-bottom: 10px;
+}
+
+.contact-container p {
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 25px;
+}
+
+/* ----- FORMULAIRE ----- */
+.contact-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-container input,
+.contact-container textarea {
+  padding: 12px 15px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+  resize: none;
+  transition: all 0.3s ease;
+}
+
+.contact-container input:focus,
+.contact-container textarea:focus {
+  outline: none;
+  border-color: #c8152b;
+  box-shadow: 0 0 5px rgba(200,20,40,0.3);
+}
+
+.contact-container button {
+  padding: 12px 20px;
+  background: #c8152b;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.contact-container button:hover {
+  background: #a11021;
+  transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+  .contact-container {
+    margin: 30px 20px;
+    padding: 30px 20px;
+  }
+}

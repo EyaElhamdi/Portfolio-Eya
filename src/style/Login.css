@@ -1,0 +1,82 @@
+.login-container {
+  max-width: 400px;
+  margin: 80px auto;
+  background: #fff;
+  padding: 40px 30px;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  text-align: center;
+}
+
+.login-container h2 {
+  font-size: 26px;
+  color: #c8152b;
+  margin-bottom: 10px;
+}
+
+/* FORMULAIRE*/
+.login-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.login-container input {
+  padding: 12px 15px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+.login-container input:focus {
+  outline: none;
+  border-color: #c8152b;
+  box-shadow: 0 0 5px rgba(200,20,40,0.3);
+}
+
+/* BOUTON LOGIN */
+.login-container button {
+  padding: 12px 20px;
+  background: #c8152b;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.login-container button:hover {
+  background: #a11021;
+  transform: translateY(-2px);
+}
+
+/*LIEN INSCRIPTION*/
+.signup-link {
+  font-size: 13px;
+  color: #333;
+}
+
+.signup-btn {
+  color: #c8152b;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.signup-btn:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 480px) {
+  .login-container {
+    margin: 50px 20px;
+    padding: 30px 20px;
+  }
+}
